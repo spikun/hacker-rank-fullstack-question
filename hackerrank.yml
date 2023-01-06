@@ -6,9 +6,6 @@ configuration:
       - spring-app/src/main/java/com/example/springapp/domain/controller/HelloController.java
       - spring-app/src/main/java/com/example/springapp/SpringAppApplication.java
     project_menu:
-#      run: "cd angular-app; npm start; cd ..; cd spring-app; mvn clean spring-boot:run"
-#      install: "cd angular-app; npm install --silent; cd ..; cd spring-app; mvn clean install"
-#      test: "cd angular-app; npm test; cd ..; cd spring-app; mvn clean test; cat target/customReports/result.txt"
-      run: "cd spring-app; mvn clean spring-boot:run"
-      install: "cd spring-app; mvn clean install"
-      test: "cd spring-app; mvn clean test; cat target/customReports/result.txt"
+      run: "cd angular-app; npm start; cd ..; cd spring-app; mvn clean spring-boot:run"
+      install: "cd angular-app; npm install --silent; cd ..; cd spring-app; mvn clean install"
+      test: "cd angular-app; npm test; cd ..; cd spring-app; mvn clean test; cat target/customReports/result.txt"
