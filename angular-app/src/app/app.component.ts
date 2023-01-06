@@ -4,14 +4,14 @@ import { HttpClient, HttpHeaders } from "@angular/common/http";
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   title = 'sample';
   terminalText = "";
 
   constructor(
-    private zone: NgZone,
+    private zone: NgZone, 
     private httpClient: HttpClient
   ) {
   }
